@@ -3,7 +3,7 @@
 //! Файл минимален: он находит элемент `#app` в HTML и монтирует туда Yew‑компонент
 //! `App`. Такая структура облегчает обучение: UI‑логика остаётся в `src/app.rs`,
 //! а `main.rs` отвечает только за старт.
-use rust_gigachat_webapp::App;
+use edu_rust_gigachat_app_frontend::App;
 
 fn main() {
     let window = web_sys::window().expect("window is unavailable");
